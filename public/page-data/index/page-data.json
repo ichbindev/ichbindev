@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"pageContext":{}},"staticQueryHashes":[]}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Post Number Three","path":"/0003","date":"2020-07-18"}}},{"node":{"frontmatter":{"title":"Post Number Two","path":"/0002","date":"2020-07-17"}}},{"node":{"frontmatter":{"title":"Post Number One","path":"/0001","date":"2020-07-16"}}}]}},"pageContext":{}},"staticQueryHashes":["3000541721"]}
