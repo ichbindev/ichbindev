@@ -26,6 +26,10 @@ const Layout = ({ data }) => {
           );
         })}
       </div>
+
+      <div>
+        <Link to="/tags">Browse Tags</Link>
+      </div>
     </div>
   );
 };

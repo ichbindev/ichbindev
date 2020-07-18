@@ -1,21 +1,46 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
-const Template = (props) => {
-  const title = props.data.markdownRemark.frontmatter.title;
-  const html = props.data.markdownRemark.html;
+const Template = ({ data, pageContext }) => {
+  const { next, prev } = pageContext;
+
+  const { markdownRemark } = data;
+  const {
+    html,
+    frontmatter: { title },
+  } = markdownRemark;
   return (
     <div>
-      <div className="blogpost"
-        dangerouslySetInnerHTML={{__html: html}}
+      <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
+      <div
+        className="blogpost"
+        dangerouslySetInnerHTML={{ __html: html }}
+        style={{
+          fontFamily: "avenir",
+        }}
       />
-    </div>);
+
+      <div style={{ marginBottom: "1rem", fontFamily: "avenir" }}>
+        {next && (
+          <Link to={next.frontmatter.path}>
+            Next: {`${next.frontmatter.title}`}
+          </Link>
+        )}
+      </div>
+      <div style={{ fontFamily: "avenir" }}>
+        {prev && (
+          <Link to={prev.frontmatter.path}>
+            Prev: {`${prev.frontmatter.title}`}
+          </Link>
+        )}
+      </div>
+    </div>
+  );
 };
 
-export const query = graphql
-`
+export const query = graphql`
   query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: {eq: $pathSlug} }) {
+    markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
       html
       frontmatter {
         title
