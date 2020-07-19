@@ -10,7 +10,7 @@ const Template = ({ data, pageContext }) => {
     frontmatter: { title },
   } = markdownRemark;
   return (
-    <div>
+    <div style={{width: "600px", margin: "0 auto", textAlign: "center"}}>
       <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
       <div
         className="blogpost"

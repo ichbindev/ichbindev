@@ -5,7 +5,7 @@ import { graphql, Link } from "gatsby";
 const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
-    <div>
+    <div style={{width: "600px", margin: "0 auto"}}>
       <Header />
       <div
         style={{
