@@ -1,6 +1,6 @@
 ### ich bin dev
 
-I am doing my best to code at least a little bit every day.
+Trying to get some code in every day. [Follow me on Twitter](https://www.twitter.com/ichbindev)
 
 <!--
 **cmlinac/cmlinac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
