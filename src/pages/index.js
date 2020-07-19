@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../components/About";
 import Header from "../components/Header";
 import { graphql, Link } from "gatsby";
 
@@ -6,6 +7,7 @@ const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <div style={{width: "600px", margin: "0 auto"}}>
+      <About />
       <Header />
       <div
         style={{
