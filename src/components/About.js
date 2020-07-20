@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import WebLinks from "./WebLinks";
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -19,15 +20,32 @@ const About = () => {
       }
     }
   `);
-  console.log(data);
+
   return (
-    <div>
-      <Img
-        className="avatar-image"
-        style={{ width: "150px", margin: "0 auto" }}
-        fluid={data.file.childImageSharp.fluid}
-        alt="avatar - king of the hill characters upset about a football game"
-      />
+    <div className="about-me-container">
+      <div className="about-me-section">
+        <Img
+          className="avatar-image"
+          style={{ width: "150px", borderRadius: "10px" }}
+          fluid={data.file.childImageSharp.fluid}
+          alt="avatar - king of the hill characters upset about a football game"
+        />
+        <div
+          className="about-me-text"
+          style={{
+            border: "1px solid black",
+            borderRadius: "10px",
+            padding: "3px 5px",
+            width: "140px",
+            marginTop: "2px"
+          }}
+        >
+          <h2 style={{ margin: "0px 2px", fontFamily: "avenir" }}>
+            ichbindev
+          </h2>
+          <WebLinks />
+        </div>
+      </div>
     </div>
   );
 };

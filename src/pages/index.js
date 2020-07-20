@@ -6,27 +6,39 @@ import { graphql, Link } from "gatsby";
 const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
-    <div style={{width: "600px", margin: "0 auto"}}>
+    <div
+      style={{
+        width: "600px",
+        margin: "0 auto",
+        display: "flex",
+        flexFlow: "row-wrap",
+      }}
+    >
       <About />
-      <Header />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          fontFamily: "avenir",
-        }}
-      >
-        {edges.map((edge) => {
-          const { frontmatter } = edge.node;
-          return (
-            <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-              <Link to={frontmatter.path}>{frontmatter.title}</Link>
-            </div>
-          );
-        })}
-      </div>
 
+      <div
+        className="blog-link-container"
+        style={{ margin: "20px" }}
+      >
+        <Header />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            fontFamily: "avenir",
+          }}
+        >
+          {edges.map((edge) => {
+            const { frontmatter } = edge.node;
+            return (
+              <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
+                <Link to={frontmatter.path}>{frontmatter.title}</Link>
+              </div>
+            );
+          })}
+        </div>
+      </div>
       <div className="tags">{/* <Link to="/tags">Browse Tags</Link> */}</div>
     </div>
   );
