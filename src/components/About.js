@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import WebLinks from "./WebLinks";
 
-const About = () => {
+const About = ({ width = 130 }) => {
   const data = useStaticQuery(graphql`
     query q {
       file(relativePath: { eq: "avatar/avatar.jpg" }) {
@@ -22,11 +22,11 @@ const About = () => {
   `);
 
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" style={{ width: `${width}px` }}>
       <div className="about-me-section">
         <Img
           className="avatar-image"
-          style={{ width: "150px", borderRadius: "10px" }}
+          style={{ width: "100%", borderRadius: "10px" }}
           fluid={data.file.childImageSharp.fluid}
           alt="avatar - king of the hill characters upset about a football game"
         />
@@ -36,13 +36,11 @@ const About = () => {
             border: "1px solid black",
             borderRadius: "10px",
             padding: "3px 5px",
-            width: "140px",
-            marginTop: "2px"
+            width: `${width - 10}px`,
+            marginTop: "2px",
           }}
         >
-          <h2 style={{ margin: "0px 2px", fontFamily: "avenir" }}>
-            ichbindev
-          </h2>
+          <h2 style={{ margin: "0px 2px", fontFamily: "avenir" }}>ichbindev</h2>
           <WebLinks />
         </div>
       </div>
