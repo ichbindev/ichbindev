@@ -1,6 +1,6 @@
 import React from "react";
-import Twitter from "../img/icon/Twitter.png";
-import Github from "../img/icon/Github.png";
+import Twitter from "../img/icon/twitter.png";
+import Github from "../img/icon/github.png";
 
 const WebLinks = () => {
   return (
