@@ -1,9 +1,9 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import Img from "gatsby-image";
 import WebLinks from "./WebLinks";
 
-const About = ({ width = 130 }) => {
+const About = ({ width = 120 }) => {
   const data = useStaticQuery(graphql`
     query q {
       file(relativePath: { eq: "avatar/avatar.jpg" }) {
@@ -22,14 +22,19 @@ const About = ({ width = 130 }) => {
   `);
 
   return (
-    <div className="about-me-container" style={{ width: `${width}px` }}>
+    <div
+      className="about-me-container"
+      style={{ width: `${width}px`, marginTop: "30px" }}
+    >
       <div className="about-me-section">
-        <Img
-          className="avatar-image"
-          style={{ width: "100%", borderRadius: "10px" }}
-          fluid={data.file.childImageSharp.fluid}
-          alt="avatar - king of the hill characters upset about a football game"
-        />
+        <Link to="/">
+          <Img
+            className="avatar-image"
+            style={{ width: "100%", borderRadius: "10px" }}
+            fluid={data.file.childImageSharp.fluid}
+            alt="avatar - king of the hill characters upset about a football game"
+          />
+        </Link>
         <div
           className="about-me-text"
           style={{

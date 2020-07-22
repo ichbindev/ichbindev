@@ -33,7 +33,7 @@ const Layout = ({ data }) => {
               const { frontmatter } = edge.node;
               return (
                 <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-                  <BlogLink path={frontmatter.path} title={frontmatter.title} />
+                  <BlogLink path={frontmatter.path} title={frontmatter.title} excerpt={frontmatter.excerpt}/>
                 </div>
               );
             })}
@@ -54,6 +54,7 @@ export const query = graphql`
             title
             path
             date
+            excerpt
           }
         }
       }

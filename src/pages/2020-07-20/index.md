@@ -2,7 +2,7 @@
 path: "/2020-07-20"
 date: "2020-07-20"
 tags: ["blog", "100daysofcode"]
-excerpt: "I open up about how I feel about this project"
+excerpt: "I open up about how I feel about sharing this project before it's polished"
 title: "When should I ship?"
 ---
 
