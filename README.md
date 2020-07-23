@@ -1,6 +1,8 @@
 ### ich bin dev
 
-Trying to get some code in every day. [Follow me on Twitter](https://www.twitter.com/ichbindev)
+Trying to get some code in every day no matter what. [Follow me on Twitter](https://www.twitter.com/ichbindev)
+
+I have recently changed my username from `ichbindeveloper` to `ichbindev`. I think I have fixed all of the links but if I missed any you can remove `-eloper` from the URL to fix it.
 
 <!--
 **cmlinac/cmlinac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
