@@ -1,0 +1,8 @@
+body {
+  background-color: ghostwhite;
+  min-height: 100%;
+}
+
+#___gatsby {
+  height: 100%;
+}

@@ -9,7 +9,10 @@ const Layout = ({ data }) => {
   return (
     <div
       className="blog-container"
-      style={{ display: "flex", flexFlow: "row-wrap" }}
+      style={{
+        display: "flex",
+        flexFlow: "row-wrap",
+      }}
     >
       <About />
       <div
@@ -17,6 +20,8 @@ const Layout = ({ data }) => {
         style={{
           width: "600px",
           margin: "0 auto",
+          backgroundColor: "lightgray",
+          borderRadius: "20px",
         }}
       >
         <div className="blog-link-container" style={{ margin: "20px" }}>
@@ -33,7 +38,11 @@ const Layout = ({ data }) => {
               const { frontmatter } = edge.node;
               return (
                 <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-                  <BlogLink path={frontmatter.path} title={frontmatter.title} excerpt={frontmatter.excerpt}/>
+                  <BlogLink
+                    path={frontmatter.path}
+                    title={frontmatter.title}
+                    excerpt={frontmatter.excerpt}
+                  />
                 </div>
               );
             })}

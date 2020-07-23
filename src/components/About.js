@@ -24,7 +24,7 @@ const About = ({ width = 120 }) => {
   return (
     <div
       className="about-me-container"
-      style={{ width: `${width}px`, marginTop: "30px" }}
+      style={{ width: `${width}px`, marginTop: "60px" }}
     >
       <div className="about-me-section">
         <Link to="/">
@@ -43,6 +43,7 @@ const About = ({ width = 120 }) => {
             padding: "3px 5px",
             width: `${width - 10}px`,
             marginTop: "2px",
+            backgroundColor: "lightgray",
           }}
         >
           <h2 style={{ margin: "0px 2px", fontFamily: "avenir" }}>ichbindev</h2>
