@@ -1,11 +1,8 @@
 import React from "react";
 import About from "../components/About";
-import BlogLink from "../components/BlogLink";
-import Header from "../components/Header";
-import { graphql } from "gatsby";
+import Body from "../components/Body";
 
-const Layout = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+const Layout = (props) => {
   return (
     <div
       className="blog-container"
@@ -15,41 +12,8 @@ const Layout = ({ data }) => {
       }}
     >
       <About />
-      <div
-        className="blog-post-container"
-        style={{
-          width: "600px",
-          margin: "0 auto",
-          backgroundColor: "lightgray",
-          borderRadius: "20px",
-        }}
-      >
-        <div className="blog-link-container" style={{ margin: "20px" }}>
-          <Header />
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              fontFamily: "avenir",
-            }}
-          >
-            {edges.map((edge) => {
-              const { frontmatter } = edge.node;
-              return (
-                <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-                  <BlogLink
-                    path={frontmatter.path}
-                    title={frontmatter.title}
-                    excerpt={frontmatter.excerpt}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        <div className="tags">{/* <Link to="/tags">Browse Tags</Link> */}</div>
-      </div>
+      <Body data={props.data}/>
+      <div className="tags">{/* <Link to="/tags">Browse Tags</Link> */}</div>
     </div>
   );
 };
