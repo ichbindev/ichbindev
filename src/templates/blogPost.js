@@ -40,38 +40,38 @@ const Template = ({ data, pageContext }) => {
             margin: "0 auto",
           }}
         >
-          <div
-            style={{
-              marginBottom: "1rem",
-              fontFamily: "avenir",
-              backgroundColor: "lightgray",
-              borderRadius: "10px",
-              padding: "10px",
-              margin: "10px 10px 10px 0",
-            }}
-          >
-            {next && (
-              <Link to={next.frontmatter.path}>
-                ⬅ {`${next.frontmatter.title}`}
-              </Link>
-            )}
-          </div>
-          <div
-            style={{
-              marginBottom: "1rem",
-              fontFamily: "avenir",
-              backgroundColor: "lightgray",
-              borderRadius: "10px",
-              padding: "10px",
-              margin: "10px 0 10px 10px",
-            }}
-          >
-            {prev && (
+          {prev && (
+            <div
+              style={{
+                marginBottom: "1rem",
+                fontFamily: "avenir",
+                backgroundColor: "lightgray",
+                borderRadius: "10px",
+                padding: "10px",
+                margin: "10px 0 10px 10px",
+              }}
+            >
               <Link to={prev.frontmatter.path}>
-                {`${prev.frontmatter.title}`} ➡
+              ⬅ {`${prev.frontmatter.title}`}
               </Link>
-            )}
-          </div>
+            </div>
+          )}
+          {next && (
+            <div
+              style={{
+                marginBottom: "1rem",
+                fontFamily: "avenir",
+                backgroundColor: "lightgray",
+                borderRadius: "10px",
+                padding: "10px",
+                margin: "10px 10px 10px 0",
+              }}
+            >
+              <Link to={next.frontmatter.path}>
+                {`${next.frontmatter.title}`} ➡
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
