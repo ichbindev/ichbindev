@@ -7,11 +7,10 @@ const BlogLink = ({ path, title, excerpt }) => {
       className="blog-link"
       style={{
         borderRadius: "20px",
-        padding: "32px 20px",
-        margin: "3px 0",
+        padding: "25px 20px",
         backgroundColor: "lightgray",
         height: "100%",
-        width: "300px",
+        width: "350px",
       }}
     >
       <Link to={path}>
