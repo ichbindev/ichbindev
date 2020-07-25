@@ -3,7 +3,7 @@ import { graphql, useStaticQuery, Link } from "gatsby";
 import Img from "gatsby-image";
 import WebLinks from "./WebLinks";
 
-const About = ({ width = 120 }) => {
+const About = ({ width = 123 }) => {
   const data = useStaticQuery(graphql`
     query q {
       file(relativePath: { eq: "avatar/avatar.jpg" }) {
