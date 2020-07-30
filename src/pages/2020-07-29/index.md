@@ -1,5 +1,5 @@
 ---
-path: "/2020-07-28"
+path: "/2020-07-29"
 date: "2020-07-29"
 tags: ["blog", "100daysofcode"]
 excerpt: "Getting personal"
