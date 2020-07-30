@@ -42,22 +42,7 @@ const Template = ({ data, pageContext }) => {
         >
           {prev && (
             <div
-              style={{
-                marginBottom: "1rem",
-                fontFamily: "avenir",
-                backgroundColor: "lightgray",
-                borderRadius: "10px",
-                padding: "10px",
-                margin: "10px 0 10px 10px",
-              }}
-            >
-              <Link to={prev.frontmatter.path}>
-              ⬅ {`${prev.frontmatter.title}`}
-              </Link>
-            </div>
-          )}
-          {next && (
-            <div
+              className="blog-post-navigation-links blog-post-navigation-link-previous"
               style={{
                 marginBottom: "1rem",
                 fontFamily: "avenir",
@@ -65,6 +50,23 @@ const Template = ({ data, pageContext }) => {
                 borderRadius: "10px",
                 padding: "10px",
                 margin: "10px 10px 10px 0",
+              }}
+            >
+              <Link to={prev.frontmatter.path}>
+                ⬅ {`${prev.frontmatter.title}`}
+              </Link>
+            </div>
+          )}
+          {next && (
+            <div
+              className="blog-post-navigation-links blog-post-navigation-link-next"
+              style={{
+                marginBottom: "1rem",
+                fontFamily: "avenir",
+                backgroundColor: "lightgray",
+                borderRadius: "10px",
+                padding: "10px",
+                margin: "10px 0 10px 10px",
               }}
             >
               <Link to={next.frontmatter.path}>
