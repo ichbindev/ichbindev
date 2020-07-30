@@ -1,8 +1,9 @@
+---
+path: "/2020-07-28"
 date: "2020-07-29"
 tags: ["blog", "100daysofcode"]
 excerpt: "Getting personal"
 title: "Tough Day"
-
 ---
 
 ## Day 12
