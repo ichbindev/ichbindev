@@ -1,6 +1,6 @@
 ### ich bin dev
 
-Trying to get some code in every day no matter what. [Follow me on Twitter](https://www.twitter.com/ichbindev)
+Trying to get some code in every day no matter what. [Follow me on Twitter](https://www.twitter.com/ichbindev) or [check out my blog!](https://www.ichbin.dev)
 
 I have recently changed my username from `ichbindeveloper` to `ichbindev`. I think I have fixed all of the links but if I missed any you can remove `-eloper` from the URL to fix it.
 
