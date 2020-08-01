@@ -14,6 +14,6 @@ I like to get to this point and finish up some basic functionality before making
 
 Anyone else follow a similar process? Or do you like to wireframe before you write any code? Or do you just wing the entire thing?
 
-Today is Day 4 of #100daysofcode and it's starting to look like a website. Made the avatar a link back to the home page, wrapped the title with a border the same size as the image, and pulled the list of posts into its own component to facilitate the changes that will need to happen there.
+Today is Day 4 of \#100daysofcode and it's starting to look like a website. Made the avatar a link back to the home page, wrapped the title with a border the same size as the image, and pulled the list of posts into its own component to facilitate the changes that will need to happen there.
 
 I need to add some color soon as well, that will make a _huge_ difference. If you have any pet color schemes I'd love to check them out!

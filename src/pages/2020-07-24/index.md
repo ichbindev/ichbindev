@@ -6,7 +6,7 @@ excerpt: "Working on something other than the blog."
 title: "Links to LinkedIn"
 ---
 
-A full week into #100daysofcode, Day 7!
+A full week into \#100daysofcode, Day 7!
 
 I added a link to my LinkedIn and played with some styling on the blog post reader page, as you can see right now if you're reading this.
 
