@@ -1,5 +1,5 @@
 ---
-path: "/100doc/2020-07-18"
+path: "/100doc/2020-08-01"
 date: "2020-08-01"
 tags: ["blog", "100daysofcode"]
 excerpt: "Saturday"
