@@ -1,0 +1,17 @@
+---
+path: "/100doc/2020-07-20"
+date: "2020-07-20"
+tags: ["blog", "100daysofcode"]
+excerpt: "I open up about how I feel about sharing this project before it's polished"
+title: "When should I ship?"
+---
+
+I've been pretty conflicted about this blog. I was doing some coding and side projects on my own, but since I (finally) made a Twitter I wanted to do \#100daysofcode and learn in public. I decided the best avenue for this was to create a blog.
+
+I surprisingly had never built a site from the ground up. I bought my first domain name, put this blog up, and decided that I'll improve it as I go instead of polishing it before releasing it. But that has made me uncomfortable.
+
+As this blog stands, it's very minimal, incomplete, and let's face it: it's not pretty. As a webdev, it's hard not to compare it to production websites, or even other developer's portfolios. I need to remember that those other sites have had hours and hours spent on them, while I've put about 6 hours into this blog so far including buying the domain, figuring out how to set the DNS up from scratch, and pulling my hair out being unable to find the difference between `staticQuery` and `statiqQuery`.
+
+It would have been easy to wait, continue not sharing what I'm working on, and put up something pretty at some later date. But I put this up as fast as I could and I need to acknowledge that it's not up to my standards. Hopefully after another week or two of spending an hour a day on it I'll have added enough that it won't feel embarrassing.
+
+And oh yeah, Day 3. I played with the styling and added a wrapper for the blog post links.
