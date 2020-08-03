@@ -1,16 +1,16 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-const Home = (props) => {
+const HDOC = (props) => {
   return (
     <>
-      <Layout data={props.data} />
+      <Layout data={props.data} description={"100 Days of Code"} />
     </>
   );
 };
 
 export const query = graphql`
-  query HomepageQuery {
+  query HDOCQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
@@ -26,4 +26,4 @@ export const query = graphql`
   }
 `;
 
-export default Home;
+export default HDOC;

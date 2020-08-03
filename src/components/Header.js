@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from "gatsby";
 import TitleAndDescription from "./TitleAndDescription";
-const Header = () => {
+const Header = ({description}) => {
   return (
     <StaticQuery
       query={graphql`
@@ -14,7 +14,7 @@ const Header = () => {
           }
         }
       `}
-      render={(data) => <TitleAndDescription data={data} />}
+      render={(data) => <TitleAndDescription data={data} description={description} />}
     />
   );
 };

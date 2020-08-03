@@ -1,8 +1,8 @@
 import React from "react";
 
-const TitleAndDescription = ({ data }) => {
+const TitleAndDescription = ({ data, description }) => {
   const title = data.site.siteMetadata.title;
-  const description = data.site.siteMetadata.description;
+  const setDescription = description || data.site.siteMetadata.description;
 
   return (
     <div
@@ -22,7 +22,7 @@ const TitleAndDescription = ({ data }) => {
           opacity: 0.5,
         }}
       >
-        {description}
+        {setDescription}
       </p>
     </div>
   );
