@@ -1,7 +1,7 @@
 import React from "react";
-import BlogLink from "../components/BlogLink";
+import BlogLink from "./BlogLink";
 
-const Body = ({ data }) => {
+const BlogListBody = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
 
   return (
@@ -31,4 +31,4 @@ const Body = ({ data }) => {
   );
 };
 
-export default Body;
+export default BlogListBody;

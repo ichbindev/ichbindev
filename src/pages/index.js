@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Home = (props) => {
   return (
     <>
-      <Layout data={props.data} />
+      <Layout data={props.data} description={"Welcome to my blog!"} />
     </>
   );
 };

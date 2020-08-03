@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import About from "../components/About";
-import Body from "../components/Body";
+import BlogListBody from "./BlogListBody";
 import Header from "../components/Header";
 
 const Layout = (props) => {
@@ -31,7 +31,7 @@ const Layout = (props) => {
           }}
         >
           <Header description={props.description} />
-          <Body data={props.data} />
+          <BlogListBody data={props.data} />
         </div>
         <div className="tags">{/* <Link to="/tags">Browse Tags</Link> */}</div>
       </div>
