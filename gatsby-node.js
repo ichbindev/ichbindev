@@ -50,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const blogPostTemplate = path.resolve("src/templates/blogPost.js");
 
-    resolve(
+    resolve(  
       graphql(
         `
           query {

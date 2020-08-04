@@ -11,14 +11,17 @@ const HDOC = (props) => {
 
 export const query = graphql`
   query HDOCQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { path: { regex: "/100doc/" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           frontmatter {
             title
-            path
             date
             excerpt
+            path
           }
         }
       }
