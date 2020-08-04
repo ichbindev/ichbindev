@@ -33,4 +33,4 @@ I learned a bit about Gatsby and GraphQL today, now the 100doc path is going off
 
 In other good news, Lonestar officially got approved by the NCAA today. Glad to see something I worked on came through, especially given the deadline.
 
-![Email of approval](https://www.ichbin.dev/img/blog/lonestar.jpeg)
+![Email of approval](https://raw.githubusercontent.com/ichbindev/ichbindev/master/src/img/blog/lonestar.jpeg)
