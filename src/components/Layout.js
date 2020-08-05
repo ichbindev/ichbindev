@@ -3,15 +3,12 @@ import { Helmet } from "react-helmet";
 import About from "../components/About";
 import BlogListBody from "./BlogListBody";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 
 const Layout = (props) => {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>esistblog</title>
-        <link rel="canonical" href="https://www.ichbin.dev/" />
-      </Helmet>
+      <SEO />
       <div
         className="blog-container"
         style={{
