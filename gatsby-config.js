@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "esistblog",
-    description: "100 Days of Code",
+    titleTemplate: "%s · esistblog",
+    description: "Blog posts about coding and things",
+    url: "https://www.ichbin.dev", // No trailing slash allowed!
+    image: "/img/avatar/avatar.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@ichbindev",
   },
   plugins: [
     `gatsby-transformer-remark`,
