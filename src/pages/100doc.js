@@ -1,10 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { graphql } from "gatsby";
+import SEO from "../components/SEO";
 
 const HDOC = (props) => {
   return (
     <>
+      <SEO />
       <Layout data={props.data} description={"100 Days of Code"} />
     </>
   );

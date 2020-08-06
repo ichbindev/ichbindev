@@ -1,14 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import About from "../components/About";
 import BlogListBody from "./BlogListBody";
 import Header from "../components/Header";
-import SEO from "../components/SEO";
 
 const Layout = (props) => {
   return (
     <>
-      <SEO />
       <div
         className="blog-container"
         style={{
