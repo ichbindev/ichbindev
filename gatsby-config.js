@@ -4,6 +4,7 @@ module.exports = {
     titleTemplate: "%s · esistblog",
     description: "Blog posts about coding and things",
     url: "https://www.ichbin.dev", // No trailing slash allowed!
+    siteUrl: "https://www.ichbin.dev", // No trailing slash allowed!
     image: "/img/avatar/avatar.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@ichbindev",
   },
