@@ -1,9 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout";
-import SEO from "../components/SEO";
-import { graphql } from "gatsby";
 
-const NotFound = (props) => {
+const NotFound = () => {
   return (
     <div
       className="404-container"
