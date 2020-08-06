@@ -16,4 +16,4 @@ I added to the blog some more real website things. Added a robots.txt and a site
 
 Finally, I ran an audit on the site. I'm happy with the results. The only major issue was color contrast accessibility. I'll need to look at the text color vs the background. The two grays may be too close to distinguish but they are purely stylistic. I'll keep playing around with colors, I hope I can find something accessible that I like.
 
-![Audit R esults: Performance 100, Accessibility 93, Best Practices 92, SEO 98](https://raw.githubusercontent.com/ichbindev/ichbindev/master/src/img/blog/audit.jpeg)
+![Audit Results: Performance 100, Accessibility 93, Best Practices 92, SEO 98](https://github.com/ichbindev/ichbindev/blob/master/src/img/blog/audit.png?raw=true)
