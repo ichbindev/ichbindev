@@ -1,6 +1,6 @@
 ---
-path: "/100doc/2020-08-05"
-date: "2020-08-05"
+path: "/100doc/2020-08-06"
+date: "2020-08-06"
 tags: ["blog", "100daysofcode"]
 excerpt: "and even more style changes"
 title: "Navigation"
