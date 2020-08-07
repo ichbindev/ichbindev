@@ -6,7 +6,11 @@ body {
 #___gatsby {
   height: 100%;
 }
-
+/* 
 p > img {
   margin-left: 32%;
+} */
+
+li {
+  list-style-type: none;
 }

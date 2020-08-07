@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery, Link } from "gatsby";
 import Img from "gatsby-image";
 import WebLinks from "./WebLinks";
+// import NavDropdown from "./NavDropdown";
 
 const About = ({ width = 123 }) => {
   const data = useStaticQuery(graphql`
@@ -49,6 +50,7 @@ const About = ({ width = 123 }) => {
           <h2 style={{ margin: "0px 2px", fontFamily: "avenir" }}>ichbindev</h2>
           <WebLinks />
         </div>
+        {/* <NavDropdown width={width}/> */}
       </div>
     </div>
   );
