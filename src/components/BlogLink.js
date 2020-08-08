@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const BlogLink = ({ path, title, excerpt }) => {
+const BlogLink = ({ path, title, excerpt, date }) => {
   return (
     <div
       className="blog-link"
@@ -15,7 +15,8 @@ const BlogLink = ({ path, title, excerpt }) => {
     >
       <Link to={path}>
         <strong>{title}</strong>
-      </Link>
+      </Link><br/>
+      {excerpt}
     </div>
   );
 };

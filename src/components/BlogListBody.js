@@ -21,6 +21,7 @@ const BlogListBody = ({ data }) => {
               <BlogLink
                 path={frontmatter.path}
                 title={frontmatter.title}
+                date={frontmatter.date}
                 excerpt={frontmatter.excerpt}
               />
             </div>

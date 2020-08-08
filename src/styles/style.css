@@ -16,7 +16,7 @@ li {
 }
 
 .nav-li-hidden {
-  display: none;
+  /* display: none; */
 }
 
 /* .nav-li-shown {

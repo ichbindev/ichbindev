@@ -26,7 +26,7 @@ const NavDropdown = ({ width }) => {
         padding: "0",
         width,
         textAlign: "center",
-        ...displayNone,
+        // ...displayNone,
       }}
     >
       <h3 style={{ margin: "0", ...bubble }}>Navigation</h3>

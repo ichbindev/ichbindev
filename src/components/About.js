@@ -42,7 +42,7 @@ const About = ({ width = 150 }) => {
             border: "1px solid black",
             borderRadius: "10px",
             padding: "3px 5px",
-            width: `${width - 10}px`,
+            width: `${width}px`,
             marginTop: "2px",
             backgroundColor: "lightgray",
           }}
