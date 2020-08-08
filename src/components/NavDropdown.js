@@ -31,15 +31,15 @@ const NavDropdown = ({ width }) => {
     >
       <h3 style={{ margin: "0", ...bubble }}>Navigation</h3>
       <ul
-        className="navigation-links"
+        className="navigation-list"
         style={{ paddingInlineStart: "0px", margin: "0" }}
       >
-        <li style={liStyle}>
+        <li className="nav-li" style={liStyle}>
           <a style={aStyle} href="/blog">
             Blog Posts
           </a>
         </li>
-        <li style={liStyle}>
+        <li className="nav-li" style={liStyle}>
           <a style={aStyle} href="/100doc">
             100 Days of Code
           </a>

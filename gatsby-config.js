@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "esistblog",
-    titleTemplate: "%s · esistblog",
+    defaultTitle: "esistblog",
+    titleTemplate: "%s",
     description: "Blog posts about coding and things",
     url: "https://www.ichbin.dev", // No trailing slash allowed!
     siteUrl: "https://www.ichbin.dev", // No trailing slash allowed!
