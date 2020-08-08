@@ -14,3 +14,11 @@ p > img {
 li {
   list-style-type: none;
 }
+
+.nav-li-hidden {
+  display: none;
+}
+
+/* .nav-li-shown {
+
+} */

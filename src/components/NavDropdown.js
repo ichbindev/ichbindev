@@ -34,12 +34,12 @@ const NavDropdown = ({ width }) => {
         className="navigation-list"
         style={{ paddingInlineStart: "0px", margin: "0" }}
       >
-        <li className="nav-li" style={liStyle}>
+        <li className="nav-li nav-li-hidden" style={liStyle}>
           <a style={aStyle} href="/blog">
             Blog Posts
           </a>
         </li>
-        <li className="nav-li" style={liStyle}>
+        <li className="nav-li nav-li-hidden" style={liStyle}>
           <a style={aStyle} href="/100doc">
             100 Days of Code
           </a>
