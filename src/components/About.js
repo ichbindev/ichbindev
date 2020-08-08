@@ -2,9 +2,9 @@ import React from "react";
 import { graphql, useStaticQuery, Link } from "gatsby";
 import Img from "gatsby-image";
 import WebLinks from "./WebLinks";
-// import NavDropdown from "./NavDropdown";
+import NavDropdown from "./NavDropdown";
 
-const About = ({ width = 123 }) => {
+const About = ({ width = 150 }) => {
   const data = useStaticQuery(graphql`
     query q {
       file(relativePath: { eq: "avatar/avatar.jpg" }) {
@@ -47,10 +47,10 @@ const About = ({ width = 123 }) => {
             backgroundColor: "lightgray",
           }}
         >
-          <h2 style={{ margin: "0px 2px", fontFamily: "avenir" }}>ichbindev</h2>
+          <h2 style={{ margin: "0px 2px", fontFamily: "avenir", textAlign: "center" }}>ichbindev</h2>
           <WebLinks />
         </div>
-        {/* <NavDropdown width={width}/> */}
+        <NavDropdown width={width}/>
       </div>
     </div>
   );
