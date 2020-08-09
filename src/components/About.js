@@ -25,7 +25,7 @@ const About = ({ width = 150 }) => {
   return (
     <div
       className="about-me-container"
-      style={{ width: `${width}px`, marginTop: "60px" }}
+      style={{ width: `${width}px`, margin: "20px" }}
     >
       <div className="about-me-section">
         <Link to="/">
@@ -47,10 +47,18 @@ const About = ({ width = 150 }) => {
             backgroundColor: "lightgray",
           }}
         >
-          <h2 style={{ margin: "0px 2px", fontFamily: "avenir", textAlign: "center" }}>ichbindev</h2>
+          <h2
+            style={{
+              margin: "0px 2px",
+              fontFamily: "avenir",
+              textAlign: "center",
+            }}
+          >
+            ichbindev
+          </h2>
           <WebLinks />
         </div>
-        <NavDropdown width={width}/>
+        <NavDropdown width={width} />
       </div>
     </div>
   );

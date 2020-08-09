@@ -29,7 +29,9 @@ const NavDropdown = ({ width }) => {
         // ...displayNone,
       }}
     >
-      <h3 style={{ margin: "0", ...bubble }}>Navigation</h3>
+      <h3 style={{ margin: "0", ...bubble }}>
+        <strong>Navigation</strong>
+      </h3>
       <ul
         className="navigation-list"
         style={{ paddingInlineStart: "0px", margin: "0" }}

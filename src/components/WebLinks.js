@@ -21,7 +21,7 @@ const WebLinks = () => {
             style={{
               width: "32px",
               height: "32px",
-              paddingTop: "6px",
+              marginTop: "6px",
             }}
           />
         </a>
@@ -46,7 +46,7 @@ const WebLinks = () => {
             style={{
               width: "32px",
               height: "32px",
-              paddingTop: "6px",
+              marginTop: "6px",
             }}
           />
         </a>
