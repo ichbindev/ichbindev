@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: darkgray;
+  min-height: 100%;
+}
+
+#___gatsby {
+  height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* 
+p > img {
+  margin-left: 32%;
+} */
+
+li {
+  /* list-style-type: none; */
+}
+
+.nav-li-hidden {
+  display: none;
+}
+
+.nav-li-visible {
+  display: block;
+}
+
+.blog-link:hover {
+  transform: scale(1.03);
+}

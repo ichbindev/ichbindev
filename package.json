@@ -7,9 +7,11 @@
     "dev": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "gen": "postcss src/styles/tailwind.css -o src/styles/style.css"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
     "gatsby": "^2.24.3",
     "gatsby-graphiql-explorer": "^0.4.11",
@@ -22,6 +24,7 @@
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-transformer-remark": "^2.1.1-beta.5",
     "gatsby-transformer-sharp": "^2.5.11",
+    "postcss-cli": "^7.1.1",
     "react": "^16.3.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^6.1.0",

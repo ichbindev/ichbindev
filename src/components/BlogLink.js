@@ -4,18 +4,15 @@ import { Link } from "gatsby";
 const BlogLink = ({ path, title, excerpt, date }) => {
   return (
     <div
-      className="blog-link"
+      className="blog-link bg-gray-200 shadow-xl rounded-lg px-6 py-1"
       style={{
-        borderRadius: "20px",
-        padding: "25px 20px",
-        backgroundColor: "lightgray",
-        height: "100%",
-        width: "350px",
+        border: "1px solid black",
       }}
     >
       <Link to={path}>
-        <strong>{title}</strong>
-      </Link><br/>
+        <strong className="link-to-post">{title}</strong>
+      </Link>
+      <br />
       {excerpt}
     </div>
   );

@@ -31,7 +31,11 @@ const About = ({ width = 150 }) => {
         <Link to="/">
           <Img
             className="avatar-image"
-            style={{ width: "100%", borderRadius: "10px" }}
+            style={{
+              width: "100%",
+              borderRadius: "10px",
+              border: "1px solid black",
+            }}
             fluid={data.file.childImageSharp.fluid}
             alt="avatar - king of the hill characters upset about a football game"
           />
