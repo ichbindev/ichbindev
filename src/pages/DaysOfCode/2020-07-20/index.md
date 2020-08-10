@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-20"
 date: "2020-07-20"
-tags: ["blog", "100daysofcode"]
-excerpt: "I open up about how I feel about sharing this project before it's polished"
-title: "When should I ship?"
+tags: ["100daysofcode"]
+excerpt: "Get it out early or pretty?"
+title: "When do I ship?"
+day: "3"
 ---
 
 I've been pretty conflicted about this blog. I was doing some coding and side projects on my own, but since I (finally) made a Twitter I wanted to do \#100daysofcode and learn in public. I decided the best avenue for this was to create a blog.

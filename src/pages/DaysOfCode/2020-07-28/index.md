@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-28"
 date: "2020-07-28"
-tags: ["blog", "100daysofcode"]
-excerpt: "Making some decisions around a deadline"
+tags: ["100daysofcode"]
+excerpt: "Don't keep doing what doesn't work."
 title: "When to Pivot"
+day: "11"
 ---
 
 ## Day 11

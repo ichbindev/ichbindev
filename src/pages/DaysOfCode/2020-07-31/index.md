@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-31"
 date: "2020-07-31"
-tags: ["blog", "100daysofcode"]
+tags: ["100daysofcode"]
 excerpt: "I bought a new domain."
 title: "DNS and Domains"
+day: "14"
 ---
 
 ## Day 14

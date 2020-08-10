@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-19"
 date: "2020-07-19"
-tags: ["blog", "100daysofcode"]
-excerpt: "I add my first update to the blog"
+tags: ["100daysofcode"]
+excerpt: "Getting the blog beyond basic"
 title: "100 Days of Code: Day 2"
+day: "2"
 ---
 
 I've made the first change to the blog by adding an image. This is the start of the "About Me" component I thought I'd get done today, but I ran into some unforseen difficulties. Long story short, Gatsby has two very similarly named methods, `staticQuery` and `statiqQuery`. I was trying to use the former but the latter filled out in autocomplete and it took a while to figure out the issue. Slightly mispelled names are some of the hardest bugs to find.

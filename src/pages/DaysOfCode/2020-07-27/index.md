@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-27"
 date: "2020-07-27"
-tags: ["blog", "100daysofcode"]
-excerpt: "Doing some backend work in Node/Express"
-title: "A full load of node"
+tags: ["100daysofcode"]
+excerpt: "Backend work in Node/Express"
+title: "A Full Load of Node"
+day: "10"
 ---
 
 Day 10 of \#10daysofcode. Had a pretty chill day today where I got to work on the backend for Lonestar. It's the first time I've really used Node/Express in a while and I forgot how much I like it and how easy it is to get going quickly. Authentication is up and working, roles should be there, and I can pass it all to the front end. All that's left to do is restrict page access.

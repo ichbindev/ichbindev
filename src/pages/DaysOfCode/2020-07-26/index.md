@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-26"
 date: "2020-07-26"
-tags: ["blog", "100daysofcode"]
-excerpt: "Working on someone else's project"
+tags: ["100daysofcode"]
+excerpt: "Doing a quick job"
 title: "Lazy Sunday"
+day: "9"
 ---
 
 On to Day 9 of \#100daysofcode. I had a nice visit with the in-laws but they didn't leave until late afternoon. 

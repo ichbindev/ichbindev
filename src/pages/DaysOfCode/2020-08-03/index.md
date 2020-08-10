@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-08-03"
 date: "2020-08-03"
-tags: ["blog", "100daysofcode"]
+tags: ["100daysofcode"]
 excerpt: "Querying the graph"
-title: "Using filter and sort in the same query"
+title: "Filter and Sort"
+day: "17"
 ---
 
 ## Day 17!

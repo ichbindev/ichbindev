@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-08-04"
 date: "2020-08-04"
-tags: ["blog", "100daysofcode"]
+tags: ["100daysofcode"]
 excerpt: "metadata"
 title: "code coding javascript react"
+day: "18"
 ---
 
 ## Day 18

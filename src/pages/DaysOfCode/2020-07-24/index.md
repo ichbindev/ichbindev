@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-24"
 date: "2020-07-24"
-tags: ["blog", "100daysofcode"]
-excerpt: "Working on something other than the blog."
-title: "Links to LinkedIn"
+tags: ["100daysofcode"]
+excerpt: "Working on another project"
+title: "Linkin' to LinkedIn"
+day: "7"
 ---
 
 A full week into \#100daysofcode, Day 7!

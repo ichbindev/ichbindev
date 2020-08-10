@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-30"
 date: "2020-07-30"
-tags: ["blog", "100daysofcode"]
+tags: ["100daysofcode"]
 excerpt: "Meeting a deadline isn't bad."
 title: "Success!"
+day: "13"
 ---
 
 ## Day 13

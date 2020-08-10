@@ -1,9 +1,10 @@
 ---
 path: "/100doc/2020-07-21"
 date: "2020-07-21"
-tags: ["blog", "100daysofcode"]
-excerpt: "At what stage in the development process do you create your UI mockup?"
+tags: ["100daysofcode"]
+excerpt: "Making mock-ups"
 title: "When do you design?"
+day: "4"
 ---
 
 I've never been very good at drawing. Like "oh that drawing isn't that bad for a 2nd grader" in 6th grade bad. My handwriting isn't much better. So let's just say that I'm really happy that computers are a thing.
