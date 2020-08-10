@@ -9,7 +9,7 @@ const BlogListBody = ({ data }) => {
       <div
         style={{
           display: "flex",
-          flexDirection: "column",
+          flexFlow: "row wrap",
           alignItems: "center",
           fontFamily: "avenir",
         }}

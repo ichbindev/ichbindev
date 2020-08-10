@@ -24,7 +24,7 @@ const About = ({ width = 150 }) => {
 
   return (
     <div
-      className="about-me-container"
+      className="about-me-containertext-gray-900"
       style={{ width: `${width}px`, margin: "20px" }}
     >
       <div className="about-me-section">
@@ -41,17 +41,17 @@ const About = ({ width = 150 }) => {
           />
         </Link>
         <div
-          className="about-me-text"
+          className="about-me-text bg-gray-300"
           style={{
             border: "1px solid black",
             borderRadius: "10px",
             padding: "3px 5px",
             width: `${width}px`,
             marginTop: "2px",
-            backgroundColor: "lightgray",
           }}
         >
           <h2
+            className="text-3xl font-semibold"
             style={{
               margin: "0px 2px",
               fontFamily: "avenir",

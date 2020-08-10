@@ -6,7 +6,6 @@ const NavDropdown = ({ width }) => {
   const bubble = {
     border: "1px solid black",
     borderRadius: "10px",
-    backgroundColor: "lightgray",
   };
 
   const liStyle = {
@@ -31,7 +30,11 @@ const NavDropdown = ({ width }) => {
         // ...displayNone,
       }}
     >
-      <h3 style={{ margin: "0", ...bubble }} onClick={() => setOpen(!open)}>
+      <h3
+        className="nav-toggle bg-gray-300"
+        style={{ margin: "0", ...bubble }}
+        onClick={() => setOpen(!open)}
+      >
         <strong>{open ? "Hide Topics" : "Show Topics"}</strong>
       </h3>
       <ul
@@ -39,7 +42,7 @@ const NavDropdown = ({ width }) => {
         style={{ paddingInlineStart: "0px", margin: "0" }}
       >
         <li
-          className={`nav-li nav-li-${open ? "visible" : "hidden"}`}
+          className={`bg-gray-300 nav-li nav-li-${open ? "visible" : "hidden"}`}
           style={liStyle}
         >
           <a style={aStyle} href="/blog">
@@ -47,7 +50,7 @@ const NavDropdown = ({ width }) => {
           </a>
         </li>
         <li
-          className={`nav-li nav-li-${open ? "visible" : "hidden"}`}
+          className={`bg-gray-300 nav-li nav-li-${open ? "visible" : "hidden"}`}
           style={liStyle}
         >
           <a style={aStyle} href="/100doc">

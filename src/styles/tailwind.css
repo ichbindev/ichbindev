@@ -1,5 +1,8 @@
 @tailwind base;
 @tailwind components;
+
+/* bg-primary, bg-secondary, text-primary, text-secondary */
+
 @tailwind utilities;
 
 body {
@@ -13,11 +16,6 @@ body {
 
 h1 {
   font-size: 2em;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -40,4 +38,8 @@ li {
 
 .blog-link:hover {
   transform: scale(1.03);
+}
+
+.nav-toggle:hover {
+  cursor: pointer;
 }

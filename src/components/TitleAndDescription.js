@@ -6,7 +6,7 @@ const TitleAndDescription = ({ data, description }) => {
 
   return (
     <div
-      className="title-and-description"
+      className="title-and-description text-gray-900"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -15,7 +15,7 @@ const TitleAndDescription = ({ data, description }) => {
         width: "100%",
       }}
     >
-      <h2 style={{ marginBottom: 0 }}>{title}</h2>
+      <h2 className="m-2 font-bold text-3xl" style={{ marginBottom: 0 }}>{title}</h2>
       <p
         style={{
           marginTop: 0,

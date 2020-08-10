@@ -8,8 +8,13 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "gen": "postcss src/styles/tailwind.css -o src/styles/style.css"
+    "gen": "postcss src/styles/tailwind.css -o src/styles/style.css",
+    "genw": "postcss src/styles/tailwind.css -o src/styles/style.css --watch"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ichbindev/ichbindev.git"
+  },  
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
