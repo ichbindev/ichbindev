@@ -22,11 +22,10 @@ const Template = ({ data, pageContext }) => {
       >
         <h1 style={{ fontFamily: "avenir", textAlign: "center" }}>{title}</h1>
         <div
-          className="blog-post"
+          className="blog-post bg-gray-300"
           dangerouslySetInnerHTML={{ __html: html }}
           style={{
             fontFamily: "avenir",
-            backgroundColor: "lightgray",
             padding: "10px 20px",
             borderRadius: "20px",
           }}
@@ -42,11 +41,10 @@ const Template = ({ data, pageContext }) => {
         >
           {prev && (
             <div
-              className="blog-post-navigation-links blog-post-navigation-link-previous"
+              className="blog-post-navigation-links blog-post-navigation-link-previous bg-gray-300"
               style={{
                 marginBottom: "1rem",
                 fontFamily: "avenir",
-                backgroundColor: "lightgray",
                 borderRadius: "10px",
                 padding: "10px",
                 margin: "10px 10px 10px 0",
@@ -59,11 +57,10 @@ const Template = ({ data, pageContext }) => {
           )}
           {next && (
             <div
-              className="blog-post-navigation-links blog-post-navigation-link-next"
+              className="blog-post-navigation-links blog-post-navigation-link-next bg-gray-300"
               style={{
                 marginBottom: "1rem",
                 fontFamily: "avenir",
-                backgroundColor: "lightgray",
                 borderRadius: "10px",
                 padding: "10px",
                 margin: "10px 0 10px 10px",
