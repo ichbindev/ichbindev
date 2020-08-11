@@ -12,9 +12,9 @@
     "genw": "postcss src/styles/tailwind.css -o src/styles/style.css --watch"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ichbindev/ichbindev.git"
-  },  
+    "type": "git",
+    "url": "https://github.com/ichbindev/ichbindev.git"
+  },
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
@@ -29,6 +29,7 @@
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-transformer-remark": "^2.1.1-beta.5",
     "gatsby-transformer-sharp": "^2.5.11",
+    "moment": "^2.27.0",
     "postcss-cli": "^7.1.1",
     "react": "^16.3.2",
     "react-dom": "^16.4.2",

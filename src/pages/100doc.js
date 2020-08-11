@@ -25,6 +25,7 @@ export const query = graphql`
             date
             excerpt
             path
+            day
           }
         }
       }

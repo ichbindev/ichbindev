@@ -17,8 +17,6 @@ const NavDropdown = ({ width }) => {
     textDecoration: "none",
   };
 
-  const displayNone = { display: "none" };
-
   return (
     <div
       style={{
@@ -27,7 +25,6 @@ const NavDropdown = ({ width }) => {
         padding: "0",
         width,
         textAlign: "center",
-        // ...displayNone,
       }}
     >
       <h3

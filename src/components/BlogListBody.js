@@ -23,6 +23,7 @@ const BlogListBody = ({ data }) => {
                 title={frontmatter.title}
                 date={frontmatter.date}
                 excerpt={frontmatter.excerpt}
+                day={frontmatter.day}
               />
             </div>
           );
