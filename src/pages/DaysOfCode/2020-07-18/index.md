@@ -2,9 +2,11 @@
 path: "/100doc/2020-07-18"
 date: "2020-07-18"
 tags: ["blog", "100daysofcode"]
-excerpt: "I start #100daysofcode"
+excerpt: "And the journey begins"
 title: "100 Days of Code: The Beginning"
 day: "1"
 ---
 
-Welcome! I just put together this small blog as Day 1 of \#100daysofcode. I've been doing daily coding to learn new things regularly but would also like to write what I do more, so I'm trying that in this little blog. Definitely going to do a lot of tweaks to this blog over the next 100 days, I'm excited to see how it and other projects turn out.
+Hello! I've decided to give \#100DaysOfCode a try. Even though I've been coding daily I've decided to make what I'm working on more public and get some writing practice. Posts in the 100 Days of Code path will be brief and very stream-of-consciousness. As I flesh out this blog I'll have a platform to share blog posts that are meant to be more helpful instead of tracking like these are.
+
+Thank you for joining my journey, I hope you enjoy seeing the site evolve over the next 99 days.
