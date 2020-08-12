@@ -7,12 +7,21 @@ const reorderList = (oldList, start, end) => {
   const [target] = reorderedList.splice(start, 1);
   // and put it at its new position
   reorderedList.splice(end, 0, target);
+  return reorderedList;
+};
+
+// TODO: set up jest
+const testReorder = () => {
+  const list = [1, 2, 3, 4, 5];
+  // simulate moving item 1 to index 1
+  const newList = reorderList(list, 0, 1);
+  // expect 2, 1, 3, 4, 5
+  console.log(newList);
 };
 
 const BlogListBody = ({ data }) => {
   const [edges, setEdges] = useState(data.allMarkdownRemark.edges);
-
-  console.log(edges);
+  testReorder();
   return (
     <div className="blog-link-container" style={{ margin: "20px" }}>
       <div
