@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import BlogLink from "./BlogLink";
 
-const BlogListBody = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+const reorderList = (oldList, start, end) => {
+  const reorderedList = Array.from(oldList);
+  // take the element out of the list
+  const [target] = reorderedList.splice(start, 1);
+  // and put it at its new position
+  reorderedList.splice(end, 0, target);
+};
 
+const BlogListBody = ({ data }) => {
+  const [edges, setEdges] = useState(data.allMarkdownRemark.edges);
+
+  console.log(edges);
   return (
     <div className="blog-link-container" style={{ margin: "20px" }}>
       <div
