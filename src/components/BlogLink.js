@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import moment from "moment";
 import { Draggable } from "react-beautiful-dnd";
 
-const BlogLink = ({ path, title, excerpt, date, day, index }) => {
+const BlogLink = ({ path, title, excerpt, date, day, index, provided }) => {
   return (
     <Draggable draggableId={path} index={index}>
       {(provided) => (
@@ -33,7 +33,6 @@ const BlogLink = ({ path, title, excerpt, date, day, index }) => {
                 <p>{excerpt}</p>
                 <p className="text-sm">{moment(date).format("MM/DD/YY")}</p>
               </div>
-              {provided.placeholder}
             </div>
           </Link>
         </div>

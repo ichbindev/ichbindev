@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import BlogLink from "./BlogLink";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import { DragDropContext, Droppable } from "react-beautiful-dnd";
 
 const reorderList = (oldList, originalIndex, destinationIndex) => {
   const reorderedList = Array.from(oldList);
@@ -9,6 +9,7 @@ const reorderList = (oldList, originalIndex, destinationIndex) => {
   // and put it at its new position
   reorderedList.splice(destinationIndex, 0, target);
   // return reorderedList;
+  return reorderedList;
 };
 
 // TODO: set up jest
@@ -33,7 +34,7 @@ const BlogListBody = ({ data }) => {
       result.destination.index
     );
 
-    setEdges(edges);
+    setEdges(blogPosts);
   };
   testReorder();
   return (
@@ -73,6 +74,7 @@ const BlogListBody = ({ data }) => {
                 );
               })}
             </div>
+            {provided.placeholder}
           </div>
         )}
       </Droppable>
