@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../components/About";
+import SEO from "../components/SEO";
 import { graphql, Link } from "gatsby";
 
 const Template = ({ data, pageContext }) => {
@@ -15,6 +16,7 @@ const Template = ({ data, pageContext }) => {
       className="blog-container"
       style={{ display: "flex", flexFlow: "row-wrap" }}
     >
+      <SEO />
       <About />
       <div
         className="blog-post-text"
