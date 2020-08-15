@@ -19,6 +19,16 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin: 1em;
+}
+
 /* 
 p > img {
   margin-left: 32%;
