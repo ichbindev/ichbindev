@@ -5,7 +5,6 @@ import { graphql, Link } from "gatsby";
 
 const Template = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
-
   const { markdownRemark } = data;
   const {
     html,

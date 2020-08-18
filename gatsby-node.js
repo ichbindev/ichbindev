@@ -50,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const blogPostTemplate = path.resolve("src/templates/blogPost.js");
 
-    resolve(  
+    resolve(
       graphql(
         `
           query {
@@ -76,14 +76,14 @@ exports.createPages = ({ graphql, actions }) => {
 
         posts.forEach(({ node }, index) => {
           const { path } = node.frontmatter;
-          console.log(path);
           createPage({
             path,
             component: blogPostTemplate,
             context: {
               pathSlug: path,
               prev: index === 0 ? null : posts[index - 1].node,
-              next: index === posts.length - 1 ? null : posts[index + 1].node,
+              // parenthesis necessary!
+              next: (index === (posts.length - 1)) ? null : posts[index + 1].node,
             },
           });
           resolve();
