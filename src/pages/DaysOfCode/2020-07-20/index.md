@@ -7,6 +7,8 @@ title: "When do I ship?"
 day: "3"
 ---
 
+## Day 3
+
 I've been pretty conflicted about this blog. I was doing some coding and side projects on my own, but since I (finally) made a Twitter I wanted to do \#100daysofcode and learn in public. I decided the best avenue for this was to create a blog.
 
 I surprisingly had never built a site from the ground up. I bought my first domain name, put this blog up, and decided that I'll improve it as I go instead of polishing it before releasing it. But that has made me uncomfortable.

@@ -7,6 +7,8 @@ title: "When do you design?"
 day: "4"
 ---
 
+## Day 4
+
 I've never been very good at drawing. Like "oh that drawing isn't that bad for a 2nd grader" in 6th grade bad. My handwriting isn't much better. So let's just say that I'm really happy that computers are a thing.
 
 I don't have to worry about drawing perfect circles or straight lines, but design is still an underdeveloped skill of mine. I try to avoid using templates or pre-made components on personal projects so I can learn the most, but it often ends up in this awkward stage where the UI is good enough to devleop on but not close to a final product. It's just a bunch of loosely grouped items on a page and I have trouble seeing how it will all go together.

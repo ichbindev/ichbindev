@@ -11,10 +11,7 @@ const Template = ({ data, pageContext }) => {
     frontmatter: { title },
   } = markdownRemark;
   return (
-    <div
-      className="blog-container"
-      style={{ display: "flex", flexFlow: "row-wrap" }}
-    >
+    <div className="blog-container flex flex-wrap">
       <SEO />
       <About />
       <div

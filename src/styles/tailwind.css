@@ -54,3 +54,13 @@ li {
 .nav-toggle:hover {
   cursor: pointer;
 }
+
+.about-me-container {
+  margin: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .about-me-container {
+    margin: 1em auto;
+  }
+}
