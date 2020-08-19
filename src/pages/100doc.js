@@ -7,7 +7,7 @@ const HDOC = (props) => {
   return (
     <>
       <SEO />
-      <Layout data={props.data} description={"100 Days of Code"} />
+      <Layout data={props.data} description={"100 Days of Code"} tiled/>
     </>
   );
 };

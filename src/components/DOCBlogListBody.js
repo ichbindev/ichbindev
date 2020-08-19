@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import BlogLink from "./BlogLink";
+import BlogTile from "./BlogTile";
 
-const BlogListBody = ({ data }) => {
+const DOCBlogListBody = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
 
   return (
     <div className="blog-link-container" style={{ margin: "20px" }}>
       <div
         style={{
+          display: "flex",
+          flexFlow: "row wrap",
           alignItems: "center",
           fontFamily: "avenir",
         }}
@@ -16,7 +18,7 @@ const BlogListBody = ({ data }) => {
           const { frontmatter } = edge.node;
           return (
             <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-              <BlogLink frontmatter={frontmatter} />
+              <BlogTile frontmatter={frontmatter} />
             </div>
           );
         })}
@@ -25,4 +27,4 @@ const BlogListBody = ({ data }) => {
   );
 };
 
-export default BlogListBody;
+export default DOCBlogListBody;

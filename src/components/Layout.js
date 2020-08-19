@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../components/About";
 import BlogListBody from "./BlogListBody";
+import DOCBlogListBody from "./DOCBlogListBody";
 import Header from "../components/Header";
 
 const Layout = (props) => {
@@ -25,7 +26,11 @@ const Layout = (props) => {
           }}
         >
           <Header description={props.description} />
-          <BlogListBody data={props.data} />
+          {props.tiled ? (
+            <DOCBlogListBody data={props.data} />
+          ) : (
+            <BlogListBody data={props.data} />
+          )}
         </div>
         <div className="tags">{/* <Link to="/tags">Browse Tags</Link> */}</div>
       </div>
