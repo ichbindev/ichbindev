@@ -17,6 +17,14 @@ const NavDropdown = ({ width }) => {
     textDecoration: "none",
   };
 
+  const handleKeyPress = event => {
+    console.log(event);
+    const key = event.charCode || event.keyCode || 0;
+    if (key === 13 || key === 32) {
+      setOpen(!open);
+    }
+  }
+
   return (
     <div
       style={{
@@ -26,11 +34,14 @@ const NavDropdown = ({ width }) => {
         width,
         textAlign: "center",
       }}
+      // role="navigation"
+      tabIndex="0"
     >
       <h3
         className="nav-toggle bg-gray-300"
         style={{ margin: "0", ...bubble }}
         onClick={() => setOpen(!open)}
+        onKeyPress={handleKeyPress}
       >
         <strong>{open ? "Hide Topics" : "Show Topics"}</strong>
       </h3>
