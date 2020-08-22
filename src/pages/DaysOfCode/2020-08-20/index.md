@@ -1,6 +1,6 @@
 ---
-path: "/100doc/2020-08-2-"
-date: "2020-08-2-"
+path: "/100doc/2020-08-20"
+date: "2020-08-20"
 tags: ["100daysofcode"]
 excerpt: "it's still important"
 title: "More a11y"
