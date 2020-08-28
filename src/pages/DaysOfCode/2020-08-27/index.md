@@ -1,6 +1,6 @@
 ---
-path: "/100doc/2020-08-267"
-date: "2020-08-267"
+path: "/100doc/2020-08-27"
+date: "2020-08-27"
 tags: ["100daysofcode"]
 excerpt: "and freedom"
 title: "Greenfield"
