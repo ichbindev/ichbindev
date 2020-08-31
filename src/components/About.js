@@ -25,7 +25,7 @@ const About = ({ width = 150 }) => {
   return (
     <div
       className="about-me-container text-gray-900"
-      style={{ width: `${width}px` }}
+      style={{ width: `${width}px`, position: "relative" }}
     >
       <div className="about-me-section">
         <Link to="/">
@@ -37,8 +37,11 @@ const About = ({ width = 150 }) => {
               border: "1px solid black",
             }}
             fluid={data.file.childImageSharp.fluid}
-            alt="avatar - king of the hill characters upset about a football game"
+            alt="home link - king of the hill characters upset about football"
           />
+          <span style={{ position: "absolute", top: ".5em", left: ".5em" }}>
+            Home
+          </span>
         </Link>
         <div
           className="about-me-text bg-gray-300"
