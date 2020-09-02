@@ -2,8 +2,8 @@
 path: "/100doc/2020-09-01"
 date: "2020-09-01"
 tags: ["100daysofcode"]
-excerpt: "🙃"
-title: "Holding Steady"
+excerpt: "and friends"
+title: "Redux"
 day: "46"
 ---
 
