@@ -1,6 +1,6 @@
 ---
-path: "/100doc/2020-09-29"
-date: "2020-09-29"
+path: "/100doc/2020-09-24"
+date: "2020-09-24"
 tags: ["100daysofcode"]
 excerpt: "why is this still a thing"
 title: "Internet Explorer"
