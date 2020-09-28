@@ -2,8 +2,8 @@
 path: "/100doc/2020-09-27"
 date: "2020-09-27"
 tags: ["100daysofcode"]
-excerpt: "short day"
-title: "Out of Town"
+excerpt: "but so is home"
+title: "Vacation is nice"
 day: "72"
 ---
 
