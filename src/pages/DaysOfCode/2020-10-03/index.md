@@ -3,7 +3,7 @@ path: "/100doc/2020-10-03"
 date: "2020-10-03"
 tags: ["100daysofcode"]
 excerpt: "Blog 2.0"
-title: "Revamo=p"
+title: "Revamp"
 day: "78"
 ---
 
