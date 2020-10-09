@@ -2,7 +2,7 @@
 path: "/100doc/2020-10-08"
 date: "2020-10-08"
 tags: ["100daysofcode"]
-excerpt: "or by having done",
+excerpt: "or by having done"
 title: "Learn by Doing"
 day: "83"
 ---

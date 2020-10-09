@@ -2,7 +2,7 @@
 path: "/100doc/2020-10-07"
 date: "2020-10-07"
 tags: ["100daysofcode"]
-excerpt: "every step forward is progress",
+excerpt: "every step forward is progress"
 title: "Slow Day"
 day: "82"
 ---
