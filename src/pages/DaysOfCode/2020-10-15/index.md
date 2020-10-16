@@ -9,6 +9,6 @@ day: "90"
 
 ## Day 90
 
-Today I spent some time watching some React Summit talks, really liked [@NikkitaFTW]()'s talk about `useEffect`. I feel really comfortable with `useEffect` but there are always little corner cases I haven't seen yet.
+Today I spent some time watching some React Summit talks, really liked [@NikkitaFTW](https://twitter.com/nikkitaftw)'s talk about `useEffect`. I feel really comfortable with `useEffect` but there are always little corner cases I haven't seen yet.
 
 Next week I'm doing a React performance workshop hosted by Kent C. Dodds, looking forward to that!
