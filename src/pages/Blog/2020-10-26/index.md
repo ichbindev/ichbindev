@@ -12,8 +12,32 @@ This post is under construction and will be updated. I'm dealing with a wrist in
 
 ## What I Wanted to Do
 
+- Learn
+- Grow
+- Write
+
 ## What I Did
+
+- Jumped around on topics
+- Shallow but not deep
 
 ## What I Learned
 
+- TypeScript
+- Go
+- TDD
+- Gatsby
+- GraphQL
+
 ## What I Wish I Did
+
+- Read more, especially code
+- More open source (pick one, don't try to do a little bit for a lot of projects)
+- More productivity tricks (IDE stuff)
+- watch coding livestreams
+- Deploy personal projects to the cloud (aws probably), especially serverless
+
+## If I Were Starting Today, I Would... (summary)
+- Not 100 contiguous days, probably 60 in 90 or something
+- Have a schedule/curriculum or one specific project to work on
+- Tough to do when your day job is also coding
