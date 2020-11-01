@@ -51,6 +51,7 @@ This post is under construction and will be updated. I'm dealing with a wrist in
 - break out really small tasks, have something doable in a day and direction
 
 - Have a schedule/curriculum or one specific project to work on
+- Set a concrete goal/commitment for each day
 - Tough to do when your day job is also coding
 
 ## The Biggest Takeaway
