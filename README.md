@@ -2,7 +2,9 @@
 
 // TODO: add a pretty header picture or something
 
-Trying to get some code in every day no matter what. [Follow me on Twitter](https://www.twitter.com/ichbindev) , [take a look at my portfolio](https://www.cmlin.ac/) or [check out my blog!](https://www.ichbin.dev)
+I'm a full stack dev, here is where I code for fun and learning. I'm currently dealing with some tendonitis in my wrist and trying to minimize the typing I do outside of work, so I'm not as prolific as I'd like to be. It's pretty frustrating but I'm getting in what I can!
+
+[Follow me on Twitter](https://www.twitter.com/ichbindev), [peruse my portfolio](https://cmlin.ac) or [check out my blog!](https://www.ichbin.dev)
 
 <!--
 **cmlinac/cmlinac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
