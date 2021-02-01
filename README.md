@@ -1,3 +1,5 @@
+![King of the Hill characters social distancing drinking beers](https://github.com/ichbindev/ichbindev/blob/master/src/img/blog/koth.jpg)
+
 ### ich bin dev
 
 // TODO: add a pretty header picture or something
