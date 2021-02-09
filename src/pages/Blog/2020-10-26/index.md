@@ -12,16 +12,19 @@ This post is under construction and will be updated. I'm dealing with a wrist in
 
 ## What I Wanted to Do
 
-- Learn new Technologies
-- Grow as an engineer
-- Practice Writing
-- Create a blog site from scratch
+My intention in starting 100 Days of Code was to grow as an engineer. I wanted to learn some new technologies, practice writing (and technical writing), and originally I wanted to create a blog site from scratch.
+
+For someone just starting out, this may be different. It's important to define your goal at the start so you can make sure to stay on topic.
 
 ## What I Did
 
 - coded or did something code related every day
 - Jumped around on topics
 - Shallow but not deep
+
+I started by building the blog site. I used a Gatsby template then wrote and styled everything myself. Understandably, that is slow. And ugly. I got self-conscious about sharing a site that lacked design and styling. I realized that there was no need to write every single part of the site myself. If I made a site for work I wouldn't write every piece of CSS myself. So I decided to add Tailwind to make the building go faster.
+
+From there, my lack of goals got to me. The blog was 'good enough,' but it wasn't the only thing I planned to work on, so I wandered. That's how you end up with a site like the current iteration of this blog. It's basic and it works, but you can tell I haven't gone much farther with it. If I had plannd more concrete goals or features with the blog, I may have spent more time focused on it.
 
 ## What I Learned
 
