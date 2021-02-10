@@ -26,6 +26,8 @@ I started by building the blog site. I used a Gatsby template then wrote and sty
 
 From there, my lack of goals got to me. The blog was 'good enough,' but it wasn't the only thing I planned to work on, so I wandered. That's how you end up with a site like the current iteration of this blog. It's basic and it works, but you can tell I haven't gone much farther with it. If I had plannd more concrete goals or features with the blog, I may have spent more time focused on it.
 
+Don't get me wrong, I learned a lot over the 100 days and am happy I did it, but I definitely should have been more focused and have clear goals. Next time.
+
 ## What I Learned
 
 - TypeScript
@@ -36,6 +38,8 @@ From there, my lack of goals got to me. The blog was 'good enough,' but it wasn'
 - Tailwind
 - More CSS
 - More internals on JS/React
+
+I was able to get my feet wet with GraphQL thanks to Gatsby and get comfortable using Tailwind to style. I also gained a little bit of experience with Golang while continuing to learn in the TypeScript/React world. I also learned some things about hosting a website, it had been a while since I configured one from scratch.
 
 ## What I Wish I Did
 
