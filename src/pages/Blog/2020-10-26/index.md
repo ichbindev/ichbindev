@@ -39,7 +39,7 @@ Don't get me wrong, I learned a lot over the 100 days and am happy I did it, but
 - More CSS
 - More internals on JS/React
 
-I was able to get my feet wet with GraphQL thanks to Gatsby and get comfortable using Tailwind to style. I also gained a little bit of experience with Golang while continuing to learn in the TypeScript/React world. I also learned some things about hosting a website, it had been a while since I configured one from scratch.
+I was able to get my feet wet with GraphQL thanks to Gatsby and get comfortable using Tailwind to style. I also gained a little bit of experience with Golang while continuing to learn in the TypeScript/React world. I also learned some things about hosting a website, it had been a while since I configured one from scratch. I also was able to do a good amount of algorithm studying and practice with leetcode style questions.
 
 ## What I Wish I Did
 
@@ -51,6 +51,12 @@ I was able to get my feet wet with GraphQL thanks to Gatsby and get comfortable 
 - Building from the ground up is fun and educational, but start with a template or at least css framework to make dev go faster. So much time tweaking the blog when frameworks are available, will look better, and I could have time focus on more features
 - Made a pretty landing page, blog is functional but I'd like something more polished
 - avoided wrist issue
+
+A list of a few general things I wish I had done or done more of. Learning how others work is a big component of this, whether it's reading their code or watching livestreams of them coding in action. 
+
+As for practice coding, specific goals to focus on would be helpful. I'd also like to have focused more on the cloud, whether it be deployment or taking advantage of some AWS services and technologies.
+
+It was unavoidable but I have to say I wish I avoided my wrist issue. It definitely put a damper on the extracurricular coding.
 
 ## If I Were Starting Today, I Would... (summary)
 - Not 100 contiguous days, probably 60 days of coding in 90 days or something. Some days you don't want to and that's OK, but phoning it in one day can lower the bar going forward
