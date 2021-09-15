@@ -2,9 +2,9 @@
 
 ### ich bin dev
 
-Hi! My name is Chris and I'm a full stack dev. Here is where I code for fun and learning. You can check out my work github profile [here](https://www.github.com/cmlzen), though most of my contributions are in private repos :)
+Hi! My name is Chris and I'm a full stack dev. Here is where I code for fun and learning. You can check out my work github profile [here](https://www.github.com/zen-chris), though most of my contributions are in private repos :)
 
-[Follow me on Twitter](https://www.twitter.com/ichbindev), [peruse my portfolio](https://cmlin.ac) or [browse out my blog!](https://www.ichbin.dev)
+[Follow me on Twitter](https://www.twitter.com/ichbindev), [peruse my portfolio](https://mlin.ac) or [browse out my blog!](https://www.ichbin.dev)
 
 <!--
 **cmlinac/cmlinac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
