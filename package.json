@@ -4,7 +4,7 @@
   "version": "0.0.0-unversioned",
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
