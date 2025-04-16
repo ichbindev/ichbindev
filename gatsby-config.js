@@ -5,8 +5,8 @@ module.exports = {
     defaultTitle: "esistblog",
     titleTemplate: "%s",
     description: "Blog posts about coding and things",
-    url: "https://ichbindev.github.io", // No trailing slash allowed!
-    siteUrl: "https://ichbindev.github.io", // No trailing slash allowed!
+    url: "https://ichbindev.github.io/ichbindev", // No trailing slash allowed!
+    siteUrl: "https://ichbindev.github.io/ichbindev", // No trailing slash allowed!
     image: "/img/avatar/avatar.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@ichbindev",
   },
@@ -34,8 +34,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://ichbindev.github.io",
-        sitemap: "https://ichbindev.github.io/sitemap.xml",
+        host: "https://ichbindev.github.io/ichbindev",
+        sitemap: "https://ichbindev.github.io/ichbindev/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
