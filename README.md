@@ -4,7 +4,7 @@
 
 Hi! My name is Chris and I'm a product-focused full stack dev that is looking for a new opportunity. I want to work somewhere that I can make a positive impact, both for the company and society. This is my place for personal code that has been written for fun or to learn something new. All of my industry work has been done on separate, less public Github accounts (and unfortunately on some Bitbucket accounts too). I am currently based in Austin, Texas but am looking to relocate.
 
-[Follow me on Twitter](https://www.twitter.com/ichbindev), [peruse my portfolio](https://mlin.ac) or [browse my blog!](https://ichbindev.github.io).
+[Follow me on Twitter](https://www.twitter.com/ichbindev), [peruse my portfolio](https://mlin.ac) or [browse my blog!](https://ichbindev.github.io/ichbindev).
 
 <!--
 **cmlinac/cmlinac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
