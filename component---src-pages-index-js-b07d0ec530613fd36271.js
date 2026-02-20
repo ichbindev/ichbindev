@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{RXBc:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),l=t.n(n),c=t("7oih"),o=t("EYWl");a.default=e=>l.a.createElement(l.a.Fragment,null,l.a.createElement(o.a,null),l.a.createElement(c.a,{data:e.data,description:"Welcome to my blog!"}))}}]);
-//# sourceMappingURL=component---src-pages-index-js-b07d0ec530613fd36271.js.map
