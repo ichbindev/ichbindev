@@ -1,5 +1,5 @@
 ---
-path: "/blog/2021-1-15"
+path: "/blog/2021-01-15"
 date: "2021-01-15"
 tags: ["blog"]
 excerpt: "And I made a portfolio."
