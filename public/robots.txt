@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://ichbindev.github.io/sitemap.xml
+Sitemap: https://ichbindev.github.io/ichbindev/sitemap.xml
 Host: https://ichbindev.github.io
